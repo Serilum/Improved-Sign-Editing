@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.natamus.improvedsignediting.fabric.mixin",
+  "plugin": "com.natamus.collective.fabric.mixin.plugin.FabricMixinConfigPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"UtilMixin"
+  ],
+  "client": [
+	"AbstractSignEditScreenMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
