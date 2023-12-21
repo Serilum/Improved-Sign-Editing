@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.natamus.improvedsignediting.forge.mixin",
+  "plugin": "com.natamus.collective.forge.mixin.plugin.ForgeMixinConfigPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "improvedsignediting_forge.refmap.json",
+  "mixins": [
+	"UtilMixin"
+  ],
+  "client": [
+	"SignEditScreenMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
