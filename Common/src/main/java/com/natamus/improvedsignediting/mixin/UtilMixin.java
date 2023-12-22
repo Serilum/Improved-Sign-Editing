@@ -1,4 +1,4 @@
-package com.natamus.improvedsignediting.forge.mixin;
+package com.natamus.improvedsignediting.mixin;
 
 import net.minecraft.Util;
 import org.spongepowered.asm.mixin.Mixin;
