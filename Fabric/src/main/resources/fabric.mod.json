@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "improvedsignediting",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Improved Sign Editing",
   "description": "Improves the functionality of editing signs, automatically go to the next and previous line.",
@@ -18,7 +18,7 @@
   "environment": "*",
   "entrypoints": { "main": [ "com.natamus.improvedsignediting.ModFabric" ], "client": [ "com.natamus.improvedsignediting.ModFabricClient" ], "modmenu": [ "com.natamus.improvedsignediting.fabric.config.IntegrateModMenu" ] },
   "mixins": [
-    "improvedsignediting_fabric.mixins.json"
+    "improvedsignediting.mixins.json"
   ],
 
   "depends": {
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.23"
+    "collective": ">=7.26"
   },
 
   "custom": {

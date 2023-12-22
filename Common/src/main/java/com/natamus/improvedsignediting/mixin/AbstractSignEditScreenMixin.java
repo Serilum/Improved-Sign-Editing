@@ -1,4 +1,4 @@
-package com.natamus.improvedsignediting.neoforge.mixin;
+package com.natamus.improvedsignediting.mixin;
 
 import com.natamus.improvedsignediting.config.ConfigHandler;
 import com.natamus.improvedsignediting.data.Buttons;
