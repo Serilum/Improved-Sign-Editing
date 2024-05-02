@@ -10,8 +10,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 @EventBusSubscriber(value = Dist.CLIENT)
 public class NeoForgeSignEditEvent {
 	@SubscribeEvent
-	public static void onClientTick(ClientTickEvent e) {
-
+	public static void onClientTick(ClientTickEvent.Post e) {
 		SignEditEvent.onClientTick(Constants.mc);
 	}
 }

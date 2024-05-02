@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="improvedsignediting"
-version="1.2"
+version="1.3"
 displayName="Improved Sign Editing"
 displayURL="https://serilum.com/mod/improved-sign-editing"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.improvedsignediting]]
     modId="collective"
     mandatory=true
-    versionRange="[7.54,)"
+    versionRange="[7.55,)"
     ordering="NONE"
     side="BOTH"
 
