@@ -45,7 +45,7 @@ public class SignEditEvent {
 
 		Util.startLine = Util.getStartLine(messageList);
 
-		if (lineWidth >= Constants.maxSignWidth && lineWidth > Util.preLineWidth) {
+		if (lineWidth >= Constants.getMaxSignWidth(screen) && lineWidth > Util.preLineWidth) {
 			if (signLine == 3) {
 				return;
 			}
@@ -81,7 +81,7 @@ public class SignEditEvent {
 		}
 		else if (Util.preJumpLine >= 0 && signLine > 0) {
 			int lastLineWidth = Constants.font.width(messages[signLine-1] + " ");
-			if (lastLineWidth + lineWidth > Constants.maxSignWidth || lastLineWidth < 10 || signLine == Util.startLine) {
+			if (lastLineWidth + lineWidth > Constants.getMaxSignWidth(screen) || lastLineWidth < 10 || signLine == Util.startLine) {
 				Util.preLineWidth = lineWidth;
 				return;
 			}
