@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Improved%20Sign%20Editing"
+logoFile="icon.png"
+
+[[mods]]
+modId="improvedsignediting"
+version="1.3"
+displayName="Improved Sign Editing"
+displayURL="https://serilum.com/mod/improved-sign-editing"
+authors="Rick South"
+description='''Improves the functionality of editing signs, automatically go to the next and previous line.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Rare Students, Shana Gitnick, Tyler Behl   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.improvedsignediting]]
+    modId="collective"
+    versionRange="[7.61,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.improvedsignediting]]
+    modId="minecraft"
+    versionRange="[1.21]"
+    ordering="NONE"
+    side="BOTH"
+
+[[mixins]]
+    config = "improvedsignediting.mixins.json"
