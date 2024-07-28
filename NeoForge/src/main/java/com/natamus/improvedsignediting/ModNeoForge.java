@@ -4,6 +4,7 @@ import com.natamus.improvedsignediting.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.improvedsignediting.neoforge.events.NeoForgeSignEditEvent;
 import com.natamus.improvedsignediting.util.Reference;
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
@@ -17,6 +18,10 @@ import net.neoforged.fml.loading.FMLEnvironment;
 public class ModNeoForge {
 	
 	public ModNeoForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
