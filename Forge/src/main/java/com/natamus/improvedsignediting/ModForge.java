@@ -38,7 +38,7 @@ public class ModForge {
 			return;
 		}
 
-    	MinecraftForge.EVENT_BUS.register(new ForgeSignEditEvent());
+    	MinecraftForge.EVENT_BUS.register(ForgeSignEditEvent.class);
 	}
 
 	private static void setGlobalConstants() {
