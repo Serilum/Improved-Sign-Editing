@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.natamus.improvedsignediting.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+	"UtilMixin"
+  ],
+  "client": [
+	"AbstractSignEditScreenMixin"
+  ],
+  "server": [
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
