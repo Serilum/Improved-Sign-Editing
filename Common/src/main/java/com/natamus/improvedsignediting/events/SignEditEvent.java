@@ -14,7 +14,7 @@ import java.util.List;
 
 public class SignEditEvent {
 	public static void onClientTick(Minecraft mc) {
-		Screen screen = mc.screen;
+		Screen screen = mc.gui.screen();
 
 		if (!(screen instanceof AbstractSignEditScreen)) {
 			return;

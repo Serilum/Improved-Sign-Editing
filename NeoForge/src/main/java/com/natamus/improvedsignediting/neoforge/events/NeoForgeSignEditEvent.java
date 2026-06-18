@@ -2,7 +2,6 @@ package com.natamus.improvedsignediting.neoforge.events;
 
 import com.natamus.improvedsignediting.data.Constants;
 import com.natamus.improvedsignediting.events.SignEditEvent;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 
