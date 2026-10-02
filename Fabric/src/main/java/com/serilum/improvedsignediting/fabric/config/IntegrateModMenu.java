@@ -1,7 +1,7 @@
-package com.natamus.improvedsignediting.fabric.config;
+package com.serilum.improvedsignediting.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.improvedsignediting.util.Reference;
+import com.serilum.improvedsignediting.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

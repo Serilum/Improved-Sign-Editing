@@ -1,8 +1,8 @@
-package com.natamus.improvedsignediting;
+package com.serilum.improvedsignediting;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.improvedsignediting.util.Reference;
+import com.serilum.improvedsignediting.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

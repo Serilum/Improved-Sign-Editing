@@ -1,6 +1,6 @@
-package com.natamus.improvedsignediting;
+package com.serilum.improvedsignediting;
 
-import com.natamus.improvedsignediting.config.ConfigHandler;
+import com.serilum.improvedsignediting.config.ConfigHandler;
 
 public class ModCommon {
 

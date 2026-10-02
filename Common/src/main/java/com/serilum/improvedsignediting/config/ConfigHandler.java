@@ -1,7 +1,7 @@
-package com.natamus.improvedsignediting.config;
+package com.serilum.improvedsignediting.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.improvedsignediting.util.Reference;
+import com.serilum.improvedsignediting.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;

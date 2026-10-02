@@ -1,4 +1,4 @@
-package com.natamus.improvedsignediting.data;
+package com.serilum.improvedsignediting.data;
 
 import net.minecraft.client.gui.components.Button;
 

@@ -1,4 +1,4 @@
-package com.natamus.improvedsignediting.util;
+package com.serilum.improvedsignediting.util;
 
 import java.util.ArrayList;
 import java.util.Arrays;

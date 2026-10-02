@@ -1,9 +1,9 @@
-package com.natamus.improvedsignediting.events;
+package com.serilum.improvedsignediting.events;
 
 import com.natamus.collective.functions.ScreenFunctions;
-import com.natamus.improvedsignediting.config.ConfigHandler;
-import com.natamus.improvedsignediting.data.Constants;
-import com.natamus.improvedsignediting.util.Util;
+import com.serilum.improvedsignediting.config.ConfigHandler;
+import com.serilum.improvedsignediting.data.Constants;
+import com.serilum.improvedsignediting.util.Util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen;

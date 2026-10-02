@@ -1,7 +1,7 @@
-package com.natamus.improvedsignediting.forge.config;
+package com.serilum.improvedsignediting.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.improvedsignediting.util.Reference;
+import com.serilum.improvedsignediting.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

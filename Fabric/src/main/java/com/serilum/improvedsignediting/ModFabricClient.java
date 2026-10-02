@@ -1,9 +1,9 @@
-package com.natamus.improvedsignediting;
+package com.serilum.improvedsignediting;
 
-import com.natamus.improvedsignediting.events.SignEditEvent;
+import com.serilum.improvedsignediting.events.SignEditEvent;
 
 import net.fabricmc.api.ClientModInitializer;
-import com.natamus.improvedsignediting.util.Reference;
+import com.serilum.improvedsignediting.util.Reference;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.Minecraft;

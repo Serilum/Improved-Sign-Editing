@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.improvedsignediting.mixin",
+  "package": "com.serilum.improvedsignediting.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
 	"UtilMixin"

@@ -1,8 +1,8 @@
-package com.natamus.improvedsignediting;
+package com.serilum.improvedsignediting;
 
-import com.natamus.improvedsignediting.forge.config.IntegrateForgeConfig;
-import com.natamus.improvedsignediting.forge.events.ForgeSignEditEvent;
-import com.natamus.improvedsignediting.util.Reference;
+import com.serilum.improvedsignediting.forge.config.IntegrateForgeConfig;
+import com.serilum.improvedsignediting.forge.events.ForgeSignEditEvent;
+import com.serilum.improvedsignediting.util.Reference;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,7 +38,7 @@ public class ModForge {
 			return;
 		}
 
-    	MinecraftForge.EVENT_BUS.register(ForgeSignEditEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeSignEditEvent.class);
 	}
 
 	private static void setGlobalConstants() {

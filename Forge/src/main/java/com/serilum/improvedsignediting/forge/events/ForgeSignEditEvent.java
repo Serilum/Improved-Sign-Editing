@@ -1,8 +1,7 @@
-package com.natamus.improvedsignediting.forge.events;
+package com.serilum.improvedsignediting.forge.events;
 
-import com.natamus.improvedsignediting.data.Constants;
-import com.natamus.improvedsignediting.events.SignEditEvent;
-import net.minecraftforge.api.distmarker.Dist;
+import com.serilum.improvedsignediting.data.Constants;
+import com.serilum.improvedsignediting.events.SignEditEvent;
 import net.minecraftforge.event.TickEvent.ClientTickEvent;
 import net.minecraftforge.event.TickEvent.Phase;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

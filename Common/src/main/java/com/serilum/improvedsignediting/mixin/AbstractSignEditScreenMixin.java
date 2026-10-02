@@ -1,8 +1,8 @@
-package com.natamus.improvedsignediting.mixin;
+package com.serilum.improvedsignediting.mixin;
 
-import com.natamus.improvedsignediting.config.ConfigHandler;
-import com.natamus.improvedsignediting.data.Buttons;
-import com.natamus.improvedsignediting.util.Util;
+import com.serilum.improvedsignediting.config.ConfigHandler;
+import com.serilum.improvedsignediting.data.Buttons;
+import com.serilum.improvedsignediting.util.Util;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
