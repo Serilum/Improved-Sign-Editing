@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "id": "improvedsignediting",
-  "version": "1.6",
+  "version": "1.7",
 
   "name": "Improved Sign Editing",
   "description": "Improves the functionality of editing signs, automatically go to the next and previous line.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/improved-sign-editing",
     "sources": "https://github.com/Serilum/Improved-Sign-Editing",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Improved%20Sign%20Editing"
   },
 
-  "license": "All Right Reserved",
+  "license": "All Rights Reserved",
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.improvedsignediting.ModFabric" ], "client": [ "com.natamus.improvedsignediting.ModFabricClient" ], "modmenu": [ "com.natamus.improvedsignediting.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.improvedsignediting.ModFabric" ], "client": [ "com.serilum.improvedsignediting.ModFabricClient" ], "modmenu": [ "com.serilum.improvedsignediting.fabric.config.IntegrateModMenu" ] },
   "mixins": [
     "improvedsignediting.mixins.json"
   ],
@@ -26,7 +26,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.2",
     "java": ">=25",
-    "collective": ">=8.29"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -41,15 +41,14 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
-	  " Josh",
 	  " Linda Jansen",
-	  " Michelle Smith",
 	  " MWS",
 	  " Tyler Behl"
   ]
